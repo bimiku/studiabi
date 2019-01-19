@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Flat File Connection Manager"
+  DTS:DTSID="{76F0FBFC-0ABF-423C-A699-AE3BED064DDA}"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="1045"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="1250"
+      DTS:ConnectionString="D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\WizyWydane.csv">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="OSG"
+          DTS:DTSID="{566616F1-23E3-492C-9865-346298B05E82}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PSG"
+          DTS:DTSID="{4669DC09-833E-4F78-9505-7DE9C1A45F2E}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Obywatelstwo"
+          DTS:DTSID="{2D121B36-77CC-43A5-858E-14F1AEFD28ED}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Symbol"
+          DTS:DTSID="{91A15232-A67E-44A8-A637-B35069072388}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="19"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Wydanie_wizy_Schengen_Schengen"
+          DTS:DTSID="{D46E358F-E017-4239-93B3-3B6CF16340DF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="19"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Wydanie_wizy_Schengen_Schengen_Polska"
+          DTS:DTSID="{589F4176-E078-4A26-B2A2-132B473DBD97}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x003B_"
+          DTS:DataType="19"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Zastąpienie_naklejki_wizowej_rodzaj_vd"
+          DTS:DTSID="{A7268629-B4F6-4EFC-B5B2-22AD220A5631}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000A_"
+          DTS:DataType="19"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Wydanie_wizy_Schengen_Schengen_Rodzaj_VC"
+          DTS:DTSID="{583C8971-AC86-4096-B58B-1D01C5C39193}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

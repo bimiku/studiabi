@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "wizy", "wizy\wizy.dtproj", "{6AC02236-C923-42E7-917B-EAAF6D886AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AC02236-C923-42E7-917B-EAAF6D886AEB}.Development|Default.ActiveCfg = Development
+		{6AC02236-C923-42E7-917B-EAAF6D886AEB}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1236EFCA-48AB-412F-AE63-50EAD95CB8AB}
+	EndGlobalSection
+EndGlobal
