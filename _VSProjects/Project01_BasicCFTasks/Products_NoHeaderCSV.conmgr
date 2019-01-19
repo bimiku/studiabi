@@ -11,7 +11,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Products_NoHeaderCSV.csv">
+      DTS:ConnectionString="D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Products_NoHeaderCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -19,7 +19,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="Column 0"
-          DTS:DTSID="{5075E1E0-6D2E-4CB5-8BCB-FE268B3D37B3}"
+          DTS:DTSID="{885BEF2C-44AD-4503-BA04-1EC26FA91B81}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -28,7 +28,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Column 1"
-          DTS:DTSID="{7A99D3E4-795C-4572-B13A-29DFF043AC05}"
+          DTS:DTSID="{DC048A03-44F2-4089-A816-2D56CAD92125}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -37,7 +37,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Column 2"
-          DTS:DTSID="{17989439-473A-488D-B014-E826C2861CC5}"
+          DTS:DTSID="{1F63E924-2A8C-4FFC-91CA-A15A256A8D72}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -46,7 +46,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Column 3"
-          DTS:DTSID="{3FB8CC8F-BD9E-4DCA-B0BF-8CDE2BEBD6F3}"
+          DTS:DTSID="{3C356880-27A3-4D47-8E2C-FD05361CC2BA}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

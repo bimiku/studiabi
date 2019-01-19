@@ -12,7 +12,7 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Sales_HeaderCSV.csv">
+      DTS:ConnectionString="D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Sales_HeaderCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -21,7 +21,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="BusinessID"
-          DTS:DTSID="{2549F1C1-28D7-462D-8495-35A56DA01CC2}"
+          DTS:DTSID="{7E231C3D-877F-47BA-9253-8D6583E266D6}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -29,7 +29,7 @@
           DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="Quantity"
-          DTS:DTSID="{431F9154-EDBB-442D-903B-F17DCA82A475}"
+          DTS:DTSID="{3BD1186D-DB58-4C0D-A967-83E77EC0E8B2}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -38,7 +38,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Year"
-          DTS:DTSID="{03FE9573-55F3-4957-A255-5C1431021353}"
+          DTS:DTSID="{3CA3BD0E-E621-4747-BA80-0DA175B919C9}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

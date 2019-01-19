@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ITK</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3qCmBoStQEaP2XPShxJNXgAAAAACAAAAAAADZgAAwAAAABAAAADw6WASyWM1Id65NU2zK63iAAAAAASAAACgAAAAEAAAAC8KZpE5tdgpSF3EMyrbxm6IAAAAPBN9VWCbqwVPRuOEju1P2/BkK3XjMtPO0KvhHZsL5gEgNAterKyrO+8qy9upuIGrBBbfh/zjfo/YUlGhpPpr+vzd/DbhrmrY5CPtbF9+4hp4qxaxyejY/iEnXysq8YdYzYiYM4CCSs3vwfZ3AR+tRmtYetFVG827o/sWM9NP7AerdJX4UriTZhQAAABRg00BQJ8rlolmWxVwfG8Zt0GH5g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3qCmBoStQEaP2XPShxJNXgAAAAACAAAAAAADZgAAwAAAABAAAAA0PDhcOSnqO1XqDIG5ZZo5AAAAAASAAACgAAAAEAAAAJPmIx6nOQ8I/uKQJcJgRUmIAAAA3sDIyrMv9BJpV0iVMwoa0Tt1WdlmkTFJoyijWkgMslNzxrO31lLupQ+axB3fw2ayiNSZgmk5e5Edo18mx7GzdaTdqgqTIq4O251m+ydxj7UOsuTnNQXyNVX3mD/tY5IkWYcJ5s9hCHKqpssyZRFZm4V4MUJg2Jiu71feGXJgt6Tat+pWAfnRrxQAAADRLcof1ko6x+cEz+Zyt4Q4raX1SQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -104,7 +104,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Products_HeaderCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Products_HeaderCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -286,7 +286,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Products_NoHeaderCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Products_NoHeaderCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -468,7 +468,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Products_NoHeaderPricelistCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Products_NoHeaderPricelistCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -605,7 +605,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=ITK\DV16;Initial Catalog=SSISExmpl;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=PK2-7;Initial Catalog=SSISExmpl;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -664,7 +664,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">ITK\DV16</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">PK2-7</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -738,7 +738,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\HD SSIS\Lesson06 SSIS Podstawy2\data\Sales_HeaderCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">D:\Users\michal.kubasiak\Source\Repos\studiabi\_VSProjects\_dane\Sales_HeaderCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>

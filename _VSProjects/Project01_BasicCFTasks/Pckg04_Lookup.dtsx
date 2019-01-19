@@ -7,12 +7,12 @@
   DTS:CreatorName="ITK\tomek"
   DTS:DTSID="{EF72EAFF-9308-4230-8EEA-0E6476264CD8}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LastModifiedProductVersion="14.0.3002.113"
   DTS:LocaleID="1045"
   DTS:ObjectName="Pckg04_Lookup"
   DTS:PackageType="5"
-  DTS:VersionBuild="43"
-  DTS:VersionGUID="{D446FC46-2A4E-4414-9C04-7732F6C3DDED}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{C280653E-B2BC-4CE0-86D4-B358D4E04718}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -243,7 +243,7 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -394,13 +394,13 @@
                   description="Specifies the SQL statement that generates the lookup table."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Pckg04_Prices]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[Pckg04_Prices]</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Pckg04_Prices]) [refTable]
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[Pckg04_Prices]) [refTable]
 where [refTable].[Product_Id] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -565,7 +565,7 @@ where [refTable].[Product_Id] = ?</property>
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1003,7 +1003,7 @@ where [refTable].[Product_Id] = ?</property>
         <NodeLayout
           Size="146,42"
           Id="Package\DFT - Load FF Prices\Pckg04_Prices"
-          TopLeft="204,166" />
+          TopLeft="99,202" />
         <NodeLayout
           Size="151,42"
           Id="Package\DFT - Load FF Prices\Flat File Source"
@@ -1014,26 +1014,26 @@ where [refTable].[Product_Id] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83.5,74"
+              EndConnector="-21.5,110"
               Start="0,0"
-              End="83.5,66.5">
+              End="-21.5,102.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33" />
+                    End="0,51" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,33"
-                    Point2="0,37"
-                    Point3="4,37" />
+                    Point1="0,51"
+                    Point2="0,55"
+                    Point3="-4,55" />
                   <mssgle:LineSegment
-                    End="79.5,37" />
+                    End="-17.5,55" />
                   <mssgle:CubicBezierSegment
-                    Point1="79.5,37"
-                    Point2="83.5,37"
-                    Point3="83.5,41" />
+                    Point1="-17.5,55"
+                    Point2="-21.5,55"
+                    Point3="-21.5,59" />
                   <mssgle:LineSegment
-                    End="83.5,66.5" />
+                    End="-21.5,102.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1143,7 +1143,7 @@ where [refTable].[Product_Id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1153,7 +1153,7 @@ where [refTable].[Product_Id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
