@@ -17,20 +17,19 @@
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductModelID"
-          DTS:DTSID="{55DAE29F-0980-41F6-8978-01E962F0DA60}"
+          DTS:DTSID="{D638DA01-0C22-4DBA-9782-E2CA1865E41D}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{3C85843B-5916-480A-898B-EA7114785824}"
+          DTS:DTSID="{2904E3B7-9A97-4419-964E-E0F94C02164B}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

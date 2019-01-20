@@ -17,11 +17,10 @@
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductID"
-          DTS:DTSID="{DB66B4B6-85C3-4BDB-A846-CA28F2634F07}"
+          DTS:DTSID="{F90F3D34-DAAE-4984-859C-4DFDFC16D7A8}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -30,7 +29,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{41A01E0A-D056-4F49-8265-FE519DC228D4}"
+          DTS:DTSID="{F229B25C-BC8E-41B3-886D-3D9B553BBED0}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -39,7 +38,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductNumber"
-          DTS:DTSID="{9914AF4F-60B9-4FB4-9B80-6DF80F9007D9}"
+          DTS:DTSID="{8A4B45E1-7C70-491A-8344-8A6FD0B76BFE}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -48,25 +47,27 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Color"
-          DTS:DTSID="{C1801CFC-7DCD-4198-A1E8-773A0DAA177F}"
+          DTS:DTSID="{8DCE6D3A-60CA-41B9-A592-7E54DD268124}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:DataScale="6"
           DTS:TextQualified="True"
           DTS:ObjectName="StandardCost"
-          DTS:DTSID="{E454D5FB-99C1-4446-A23A-A9A10428B11F}"
+          DTS:DTSID="{C00F0CB9-DFD5-47C4-A870-79AF035DDB41}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:DataScale="6"
           DTS:TextQualified="True"
           DTS:ObjectName="ListPrice"
-          DTS:DTSID="{08860621-8C42-4097-805E-05BAC16013A2}"
+          DTS:DTSID="{A0162965-C1B5-4A98-93C9-C771264489D3}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -75,7 +76,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductLine"
-          DTS:DTSID="{A0D1F817-AD62-4D60-8D74-613323955FE8}"
+          DTS:DTSID="{C3E3EEF2-84E7-490E-80F5-C3D29E314DAF}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -84,7 +85,7 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Class"
-          DTS:DTSID="{E6939665-14F3-4529-8D42-34EFAFA1F552}"
+          DTS:DTSID="{79C7DF2D-F881-4A6B-B929-87FBF9514463}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -93,25 +94,23 @@
           DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Style"
-          DTS:DTSID="{952B71F1-D73D-451D-9EB4-F3DFB3B009ED}"
+          DTS:DTSID="{4098F5EF-D58C-46B3-B4E9-4E3F46D1AF93}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductSubcategoryID"
-          DTS:DTSID="{C87213C5-F62E-4260-A750-DD7EC0C91820}"
+          DTS:DTSID="{D59347E9-37E5-4743-B919-677072FAE6CF}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x000A_"
-          DTS:MaximumWidth="50"
-          DTS:DataType="129"
+          DTS:DataType="3"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductModelID"
-          DTS:DTSID="{9803C9B7-3E13-42C9-A1A8-254E5D784DB0}"
+          DTS:DTSID="{D82BAFAB-E8B9-4646-A986-0E390CB097E8}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
