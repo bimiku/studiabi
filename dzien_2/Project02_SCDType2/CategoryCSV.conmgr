@@ -12,24 +12,25 @@
       DTS:RowDelimiter=""
       DTS:TextQualifier="_x003C_none_x003E_"
       DTS:CodePage="1250"
-      DTS:ConnectionString="C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\CategoryCSV.csv">
+      DTS:ConnectionString="C:\Users\michal.kubasiak\source\repos\bimiku\studiabi\dzien_2\_data\CategoryCSV.csv">
       <DTS:FlatFileColumns>
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
           DTS:ColumnDelimiter="_x003B_"
-          DTS:DataType="3"
+          DTS:MaximumWidth="50"
+          DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="ProductCategoryID"
-          DTS:DTSID="{CFE18950-12B1-46B7-930E-3EAC53689A6B}"
+          DTS:DTSID="{24F328CD-791D-47BF-B735-555C72B259A7}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
-          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:ColumnDelimiter="_x000A_"
           DTS:MaximumWidth="50"
-          DTS:DataType="130"
+          DTS:DataType="129"
           DTS:TextQualified="True"
           DTS:ObjectName="Name"
-          DTS:DTSID="{BE0D07DF-5E9F-47C6-9A82-D6EC7F567956}"
+          DTS:DTSID="{D88910C1-2E2D-4E81-9F53-0C7FE70B8C71}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>

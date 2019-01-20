@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">ITK</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQLp7C9mJt0Wjy+xGrQIUPwAAAAACAAAAAAADZgAAwAAAABAAAAA4pqJ4ymcJZvyHuFONrve+AAAAAASAAACgAAAAEAAAAFpuEQwAE+CjUvCydC7+MFWIAAAAPP4LAkPJvUiZVm0aDYA6KkEfs5bEmTD3FFJIrS+a6EiJjB5dH+Y95OhbRKGQD1U+gQ83ro7aj4BCgaWKPce7T/9GtHExwsgKFl+PRB0/grkuVX9qQV5V9Kl5sE8wIK6JGjHv+QE4BXtErQkhDhNJsTf2bS/q35GgIwobUShPgsAfBEn2yui4BRQAAADM3Qc9V7k+sr+sqTahwsI8Kzc9Ww==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAQLp7C9mJt0Wjy+xGrQIUPwAAAAACAAAAAAADZgAAwAAAABAAAABHFU1trueYWzNev4BYbLP+AAAAAASAAACgAAAAEAAAAOIBhUwNViZ3IuwYd7mnon2IAAAAAlC3KD3SchgI+TeFWn2n8nAA/w+o30YxzqRss7JRiYcRMJFSCwe0v5EGAAVKpoRejj4zir7Lf6RjY6gErc2x867dlR90XPV8eDBV22Dl5fuimDO1zh7v2X2aF5cWtyGifBTBIBCS0LBGrV2MObJzuiOuygu5EJ+g4jlrguAEOH1156AZMQelphQAAAA5E10AbfdjTKk53EakJT6AzSeV9w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -98,7 +98,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\CategoryCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\michal.kubasiak\source\repos\bimiku\studiabi\dzien_2\_data\CategoryCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -280,7 +280,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\ModelCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\michal.kubasiak\source\repos\bimiku\studiabi\dzien_2\_data\ModelCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -462,7 +462,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\ProductCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\michal.kubasiak\source\repos\bimiku\studiabi\dzien_2\_data\ProductCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -644,7 +644,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">C:\Users\tomek\Desktop\TKost Cwiczenia 70463_HD_nowy\Lesson07 SSIS Podstawy3\Part2\_dane\csv\SubcategoryCSV.csv</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">C:\Users\michal.kubasiak\source\repos\bimiku\studiabi\dzien_2\_data\SubcategoryCSV.csv</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -781,7 +781,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=ITK\DV16;Initial Catalog=ZadanieSCD2;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=PK7-11;Initial Catalog=ZadanieSCD2;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -840,7 +840,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">ITK\DV16</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">PK7-11</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -883,10 +883,10 @@
                 <SSIS:Property SSIS:Name="Name">01_LoadDimProduct</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">22</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6736C384-3907-44AC-8DD4-1105895F0347}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2D89258B-95FB-4081-976E-57267A5A1B80}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
